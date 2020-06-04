@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="automation.CalculatorAutomation" tests="4" skipped="0" failures="1" errors="0" timestamp="2019-12-09T12:15:51" hostname="NAG1-LHP-N06988" time="22.603">
+  <properties/>
+  <testcase name="addition_test" classname="automation.CalculatorAutomation" time="6.225">
+    <failure message="Condition not satisfied:&#10;&#10;mSimpleCalculatorPage.resultField.getText() == &quot;022.21&quot;&#10;|                     |           |         |&#10;|                     |           22.21     false&#10;|                     |                     1 difference (83% similarity)&#10;|                     |                     (-)22.21&#10;|                     |                     (0)22.21&#10;|                     [[AndroidDriver:  on LINUX (76fe06cc-d9cb-450c-b7c8-af228aa2d11f)] -&gt; id: com.example.mvpcalculator:id/tv_result]&#10;pages.SimpleCalculatorPage&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+mSimpleCalculatorPage.resultField.getText() == &quot;022.21&quot;
+|                     |           |         |
+|                     |           22.21     false
+|                     |                     1 difference (83% similarity)
+|                     |                     (-)22.21
+|                     |                     (0)22.21
+|                     [[AndroidDriver:  on LINUX (76fe06cc-d9cb-450c-b7c8-af228aa2d11f)] -&gt; id: com.example.mvpcalculator:id/tv_result]
+pages.SimpleCalculatorPage
+
+	at automation.CalculatorAutomation.addition_test(CalculatorAutomation.groovy:36)
+</failure>
+  </testcase>
+  <testcase name="subtraction_test" classname="automation.CalculatorAutomation" time="5.623"/>
+  <testcase name="multiplication_test" classname="automation.CalculatorAutomation" time="5.382"/>
+  <testcase name="division_test" classname="automation.CalculatorAutomation" time="5.373"/>
+  <system-out><![CDATA[Initializing SimpleCalculatorPage Instance...
+Reading GebConfig File...
+Creating Android Driver...
+#############  Driver Created  ###############
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

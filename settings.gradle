@@ -1,0 +1,3 @@
+rootProject.name = 'geb-spock'
+include 'geb-mobile', 'geb-mobile-test-cucumber', 'geb-mobile-test-spock'
+
